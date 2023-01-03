@@ -60,7 +60,16 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    return inquirer.prompt(questions)
+        .then((data) => {
+           console.log(data)
+            return data
+        })
+        .catch((error) => {
+            console.log(error)
+        })
+}
 
 // Function call to initialize app
 init();
