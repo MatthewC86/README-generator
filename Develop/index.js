@@ -63,8 +63,16 @@ function writeToFile(fileName, data) {}
 function init() {
     return inquirer.prompt(questions)
         .then((data) => {
-           console.log(data)
-            return data
+           const mark = MarkDown(data)
+            fs.writeFile('README.md', mark, function (err){
+                if (err) {
+                    console.log('Your file was not saved successfully.', err)
+                } else {
+                    console.log('A new README file was generated!')
+                }
+            })
+            //console.log(mark)
+            //return data
         })
         .catch((error) => {
             console.log(error)
