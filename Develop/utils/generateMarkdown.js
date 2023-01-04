@@ -1,6 +1,15 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  const badges = {
+    mit: 'https://img.shields.io/badge/License-MIT-yellow.svg',
+    isc: 'https://img.shields.io/badge/License-ISC-blue.svg',
+    gnuplv3: 'https://img.shields.io/badge/License-LGPL_v3-blue.svg'
+    //mit: '![![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+    //isc:'[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)',
+    //gnuplv3: '[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)'
+}
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
