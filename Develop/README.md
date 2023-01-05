@@ -33,7 +33,8 @@
   
   ![image](https://user-images.githubusercontent.com/114010089/210649178-a2a11786-2c95-4e2d-9127-0070e82237f1.png)
   
-  ![Untitled_ Jan 4, 2023 9_43 PM (2)](https://user-images.githubusercontent.com/114010089/210690696-1d4096d7-031d-4d24-a9f4-9efffaf55a07.gif)
+ ![Untitled_ Jan 4, 2023 9_43 PM (1)](https://user-images.githubusercontent.com/114010089/210691593-4a828fc6-dae0-493f-a446-3f987baf8082.gif)
+
 
   
   
